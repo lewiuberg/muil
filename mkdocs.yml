@@ -1,0 +1,139 @@
+site_name: Myra Ungdoms- og Idrettslag
+site_description: Myra Ungdoms- og Idrettslag
+site_url: "https://lewiuberg.github.io/muil/"
+repo_url: "https://github.com/lewiuberg/muil"
+repo_name: muil
+edit_uri: blob/muil/docs/
+author: Lewi Lie Uberg
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+  logo: assets/img/logo_white.png
+  favicon: assets/img/favicon.ico
+  language: en
+  palette:
+    - scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/lightbulb
+        name: Switch to dark mode
+    - scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to light mode
+  features:
+    - search.suggest
+    - search.highlight
+    - toc.integrate
+    - navigation.top
+    - navigation.indexes
+    - navigation.tabs
+  # - navigation.tabs.sticky
+  # - navigation.tracking
+  # - navigation.expand
+  # - navigation.sections
+  # - header.autohide
+plugins:
+  - social:
+  - search:
+      separator: '[\s\-\.]'
+      # min_length: 2
+      # indexing:
+      #   "full"
+      # media_type: print
+      # enabled_if_env: ENABLE_PDF_EXPORT
+  - macros:
+      enabled_if_env: ENABLE_PDF_EXPORT
+markdown_extensions:
+  - toc:
+      permalink: true
+  - pymdownx.highlight:
+      # auto_title: true
+      # anchor_linenums: true
+      # linenums: true
+      # linenums_style: pymdownx-inline
+  - pymdownx.tasklist:
+      clickable_checkbox: true
+      custom_checkbox: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - markdown.extensions.footnotes
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.tables
+  - markdown.extensions.abbr
+  - markdown.extensions.md_in_html
+  - pymdownx.betterem
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - admonition
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+        # - footnotes
+        # - attr_list
+        # - md_in_html
+        # - tables
+
+extra:
+  social:
+    # facebook: https://www.facebook.com/myrauil
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/myrauil
+      name: Myra UIL on Facebook
+    - icon: fontawesome/solid/network-wired
+      link: https://uberg.me
+      name: Author website
+extra_css:
+  - stylesheets/extra.css
+# extra_javascript:
+#   - javascripts/extra.js
+copyright: Copyright &copy; 2025 - 2025 Lewi Lie Uberg
+# nav:
+#   # - Home: /
+#   - Medlemskap: medlemskap.md
+#   - Aktiviteter:
+#   - Kontakt:
+#       - Leie: kontakt/leie.md
+#   - Om MUIL: # Skal inneholde infromasjon om styret, vedtekter, historie, etc.
+#       - Styret: om/styret.md
+#       - Vedtekter: om/vedtekter.md
+#       - Historie: om/historie.md
+#         # - api/index.md
+#         # - Endpoints:
+#         #     - api/endpoints/users.md
+#   # - People: /people/
+#   # - About: /about/
+
+nav:
+  - Medlemskap: medlemskap.md
+  - Aktiviteter:
+      - Oversikt: aktiviteter/oversikt.md # Placeholder for activities overview
+      - Kalender: aktiviteter/kalender.md # Placeholder for calendar
+  - Kontakt:
+      # - kontakt/index.md
+      - kontakt/kontakt.md
+      - Leie: kontakt/leie.md
+      # - index.md
+      # - Leie: kontakt/leie.md
+      # - Generell kontakt: kontakt/generell.md # Placeholder for general contact info
+  - Om MUIL:
+      - Historie: om/historie.md
+      - Anlegg: om/anlegg.md
+      - Styret: om/styret.md
+      - Vedtekter: om/vedtekter.md
+      - Bildegalleri: om/bilder.md # Placeholder for image gallery

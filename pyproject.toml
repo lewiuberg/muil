@@ -1,0 +1,23 @@
+[project]
+name = "muil"
+version = "0.1.0"
+description = "Myra Ungdoms- og Idrettslag"
+readme = {file = "README.md", content-type = "text/markdown"}
+requires-python = ">=3.13.1"
+license = "MIT"
+license-files = ["https://github.com/lewiuberg/sjenk/blob/master/LICENSE"]
+authors = [
+    {name = "Lewi Lie Uberg", email = "lewiuberg@icloud.com"},
+]
+maintainers = [
+    {name = "Lewi Lie Uberg", email = "lewiuberg@icloud.com"},
+]
+dependencies = []
+
+[dependency-groups]
+docs = [
+    "mkdocs>=1.6.1",
+    "mkdocs-macros-plugin>=1.3.7",
+    "mkdocs-material[imaging]>=9.6.9",
+    "pymdown-extensions>=10.14.3",
+]

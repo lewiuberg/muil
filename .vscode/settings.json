@@ -1,0 +1,10 @@
+{
+  // -------------------------------- PYTHON ---------------------------------
+  "python.terminal.activateEnvironment": true,
+  // -------------------------------- PYTEST ---------------------------------
+  "testExplorer.useNativeTesting": true,
+  // --------------------------------- MISC ----------------------------------
+  "cSpell.words": ["MUIL"],
+  // TODO: is there a better way to fix config types?
+  "python.analysis.typeCheckingMode": "off"
+}
