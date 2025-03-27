@@ -1,20 +1,6 @@
 # AKTIVITETSTILBUD I MUIL
 
 <!-- prettier-ignore -->
-!!! warning
-    Dette er kastet i sammen på ca en times tid. Jeg kan gjøre mye mere uta dette.
-
-!!! info inline end "Til Maria"
-
-    Ta en kikke på kategoriene, men ikke tenk at jeg har gjort dette spesielt ryddig eller fancy. Dette er bare for å vise deg at det er mulig å gjøre dette ganske billig og enkelt.
-
-<div class="annotate" markdown>
-
-Vi kan f.eks legge til mere utdypende informasjon, (1) Klikk på meg for å se mer.
-
-</div>
-
-1.  :man_raising_hand: Hei! Jeg er veldig mye mere utdypende informasjon!!!
 
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 

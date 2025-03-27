@@ -2,16 +2,12 @@
 name = "muil"
 version = "0.1.0"
 description = "Myra Ungdoms- og Idrettslag"
-readme = {file = "README.md", content-type = "text/markdown"}
+readme = { file = "README.md", content-type = "text/markdown" }
 requires-python = ">=3.13.1"
 license = "MIT"
 license-files = ["https://github.com/lewiuberg/sjenk/blob/master/LICENSE"]
-authors = [
-    {name = "Lewi Lie Uberg", email = "lewiuberg@icloud.com"},
-]
-maintainers = [
-    {name = "Lewi Lie Uberg", email = "lewiuberg@icloud.com"},
-]
+authors = [{ name = "Lewi Lie Uberg", email = "lewiuberg@icloud.com" }]
+maintainers = [{ name = "Lewi Lie Uberg", email = "lewiuberg@icloud.com" }]
 dependencies = []
 
 [dependency-groups]

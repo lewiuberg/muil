@@ -51,6 +51,12 @@ plugins:
 markdown_extensions:
   - toc:
       permalink: true
+  - markdown.extensions.footnotes
+  - markdown.extensions.attr_list
+  - markdown.extensions.def_list
+  - markdown.extensions.tables
+  - markdown.extensions.abbr
+  - markdown.extensions.md_in_html
   - pymdownx.highlight:
       # auto_title: true
       # anchor_linenums: true
@@ -64,14 +70,9 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
-  - markdown.extensions.footnotes
-  - markdown.extensions.attr_list
-  - markdown.extensions.def_list
-  - markdown.extensions.tables
-  - markdown.extensions.abbr
-  - markdown.extensions.md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
   - pymdownx.betterem
-  - pymdownx.superfences
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.critic
@@ -88,6 +89,7 @@ markdown_extensions:
         # - attr_list
         # - md_in_html
         # - tables
+
 
 extra:
   social:
@@ -120,20 +122,41 @@ copyright: Copyright &copy; 2025 - 2025 Lewi Lie Uberg
 #   # - About: /about/
 
 nav:
-  - Medlemskap: medlemskap.md
   - Aktiviteter:
-      - Oversikt: aktiviteter/oversikt.md # Placeholder for activities overview
-      - Kalender: aktiviteter/kalender.md # Placeholder for calendar
-  - Kontakt:
-      # - kontakt/index.md
-      - kontakt/kontakt.md
-      - Leie: kontakt/leie.md
-      # - index.md
-      # - Leie: kontakt/leie.md
-      # - Generell kontakt: kontakt/generell.md # Placeholder for general contact info
+      - aktiviteter/index.md
+      - Fotball: aktiviteter/fotball.md
+      - Frisbeegolf: aktiviteter/frisbeegolf.md
+      - Innebandy: aktiviteter/innebandy.md
+      - Ski: aktiviteter/ski.md
+      - Volleyball: aktiviteter/volleyball.md
+      - Barneidrett: aktiviteter/barneidrett.md
+      - Bli-Sterk: aktiviteter/bli-sterk.md
+      - Leikarring: aktiviteter/leikarring.md
+      - Klubb: aktiviteter/klubb.md
   - Om MUIL:
+      - om/medlemskap.md
       - Historie: om/historie.md
       - Anlegg: om/anlegg.md
       - Styret: om/styret.md
       - Vedtekter: om/vedtekter.md
-      - Bildegalleri: om/bilder.md # Placeholder for image gallery
+      - Bildegalleri: om/bilder.md
+  - Kontakt:
+      - Kontakt: kontakt/kontakt.md
+      - Leie: kontakt/leie.md
+  - Nyheter: /nyheter/
+  # - Medlemskap: medlemskap.md
+  # - Aktiviteter:
+  #     - Oversikt: aktiviteter/oversikt.md
+  #     - Kalender: aktiviteter/kalender.md
+  #     # - kontakt/index.md
+  #     - kontakt/kontakt.md
+  #     - Leie: kontakt/leie.md
+  #     # - index.md
+  #     # - Leie: kontakt/leie.md
+  #     # - Generell kontakt: kontakt/generell.md
+  # - Om MUIL:
+  #     - Historie: om/historie.md
+  #     - Anlegg: om/anlegg.md
+  #     - Styret: om/styret.md
+  #     - Vedtekter: om/vedtekter.md
+  #     - Bildegalleri: om/bilder.md
