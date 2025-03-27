@@ -16,8 +16,8 @@
 
 :root > * {
   /* Code block color shades */
-  --md-code-bg-color: hsla(0, 0%, 96%, 1);
-  --md-code-fg-color: hsla(200, 18%, 26%, 1);
+  /* --md-code-bg-color: rgb(148, 55, 55); */
+  /* --md-code-fg-color: hsla(200, 18%, 26%, 1); */
 
   /* Footer */
   --md-footer-bg-color: #33714c;
@@ -27,8 +27,41 @@
   --md-footer-fg-color--lighter: hsla(0, 0%, 100%, 0.3);
 }
 
+/* Logo */
 .md-header__button.md-logo img,
 .md-header__button.md-logo svg {
   height: 2.5rem;
   width: 2.5rem;
 }
+
+
+/* .md-sidebar--primary {
+  width: 15rem !important;
+  left: -15rem !important;
+} */
+
+/* img {
+  height: auto;
+  width: auto;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 4px;
+  background-color: #fff;
+}
+
+.shadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.zoom {
+  transition: transform ease-in-out 0.5s;
+  cursor: zoom-in;
+}
+
+.image-zoom-large {
+  transform: scale(1.5);
+  cursor: zoom-out;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  z-index: 100;
+  position: absolute;
+} */
