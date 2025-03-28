@@ -9,8 +9,8 @@ theme:
   name: material
   icon:
     repo: fontawesome/brands/github
-  logo: assets/img/logo_white.png
-  favicon: assets/img/favicon.ico
+  logo: assets/img/logo/logo_white.png
+  favicon: assets/img/logo/favicon.ico
   language: en
   palette:
     - scheme: default
@@ -38,6 +38,7 @@ theme:
   # - navigation.sections
   # - header.autohide
 plugins:
+  - blog:
   - social:
   - search:
       separator: '[\s\-\.]'
@@ -48,6 +49,7 @@ plugins:
       # enabled_if_env: ENABLE_PDF_EXPORT
   - macros:
       enabled_if_env: ENABLE_PDF_EXPORT
+  - markdownextradata: {}
 markdown_extensions:
   - toc:
       permalink: true
@@ -92,6 +94,10 @@ markdown_extensions:
 
 
 extra:
+  variables:
+    name: MUIL
+  email:
+    sponsor: "sponsmyra@gmail.com"
   social:
     # facebook: https://www.facebook.com/myrauil
     - icon: fontawesome/brands/facebook
@@ -143,7 +149,10 @@ nav:
   - Kontakt:
       - Kontakt: kontakt/kontakt.md
       - Leie: kontakt/leie.md
-  - Nyheter: /nyheter/
+  - Nyheter: blog/index.md
+  #     - blog/index.md
+  #     - blog/2023-10-01-test.md
+  #     - blog/2023-10-02-test2.md
   # - Medlemskap: medlemskap.md
   # - Aktiviteter:
   #     - Oversikt: aktiviteter/oversikt.md

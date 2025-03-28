@@ -1,70 +1,75 @@
-# AKTIVITETSTILBUD I MUIL
+---
+hide:
+  - navigation
+---
+
+# Velkommen til Myra Ungdoms- og Idrettslag (MUIL)!
+
+MUIL er et idrettslag for alle, og vi ønsker å skape et inkluderende og aktivt miljø for våre medlemmer. Her finner du informasjon om våre aktiviteter, medlemskap og kommende arrangementer.
+
+## Kommende arrangementer
+
+Vi har mange spennende arrangementer planlagt fremover! Her er noen av dem:
 
 <!-- prettier-ignore -->
-
 <div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
-  <div style="flex: 1 1 calc(33% - 20px); text-align: center;">
-    <a href="/muil/docs/aktiviteter/barneidrett.md">
-      <img src="assets/img/barneidrett.jpg" alt="Barneidrett" style="width: 100%; max-width: 150px;">
-      <p>BARNEIDRETT</p>
+  <div style="flex: 1 1 calc(50% - 20px); text-align: center;">
+    <a href="https://fb.me/e/59qMDdybH">
+      <img src="assets/img/events/åpningshelg-med-natursti.jpg" alt="Fotball" style="width: 100%; max-width: 250px; border: 5px solid #356f4b; border-radius: 5px;">
+      <h3 style="margin: 0;">Åpningshelg i kioskvogna</h3>
+      <h4 style="margin-bottom: 0;">Natursti med premie!</h4>
+      <p style="margin: 0;"><strong>Dato:</strong> Lørdag 5. april</p>
+      <p style="margin: 0;"><strong>Tid:</strong> 11:00 - 16:00</p>
+      <p style="margin: 0;"><strong>Sted:</strong> Myra Sykkelgård</p>
     </a>
   </div>
 
-  <div style="flex: 1 1 calc(33% - 20px); text-align: center;">
-    <a href="/muil/docs/aktiviteter/klubbkvelder.md">
-      <img src="assets/img/klubbkvelder.jpg" alt="Klubbkvelder" style="width: 100%; max-width: 150px;">
-      <p>KLUBBKVELDER</p>
+  <div style="flex: 1 1 calc(50% - 20px); text-align: center;">
+    <a href="https://fb.me/e/4uj0UzEiL">
+      <img src="assets/img/events/åpningshelg-med-natursti.jpg" alt="Fotball" style="width: 100%; max-width: 250px; border: 5px solid #356f4b; border-radius: 5px;">
+      <h3 style="margin: 0;">Åpningshelg i kioskvogna</h3>
+      <h4 style="margin-bottom: 0;">Natursti med premie!</h4>
+      <p style="margin: 0;"><strong>Dato:</strong> Søndag 6. april</p>
+      <p style="margin: 0;"><strong>Tid:</strong> 11:00 - 16:00</p>
+      <p style="margin: 0;"><strong>Sted:</strong> Myra Sykkelgård</p>
     </a>
   </div>
 
-  <div style="flex: 1 1 calc(33% - 20px); text-align: center;">
-    <a href="/muil/docs/aktiviteter/innebandy.md">
-      <img src="assets/img/innebandy.jpg" alt="Innebandy" style="width: 100%; max-width: 150px;">
-      <p>INNEBANDY</p>
+  <div style="flex: 1 1 calc(50% - 20px); text-align: center;">
+    <a href="https://fb.me/e/4jKLKoUT7">
+      <img src="assets/img/events/bruktmarked.jpg" alt="Fotball" style="width: 100%; max-width: 250px; border: 5px solid #356f4b; border-radius: 5px;">
+      <h3 style="margin: 0;">Bruktmarked på grendehuset</h3>
+      <h4 style="margin-bottom: 0;">En langfredag fylt med skatter og hygge!</h4>
+      <p style="margin: 0;"><strong>Dato:</strong> Fredag 18. april</p>
+      <p style="margin: 0;"><strong>Tid:</strong> 11:00</p>
+      <p style="margin: 0;"><strong>Sted:</strong> Myra Grendehus</p>
     </a>
   </div>
 
-  <div style="flex: 1 1 calc(33% - 20px); text-align: center;">
-    <a href="/muil/docs/aktiviteter/bli-sterk.md">
-      <img src="assets/img/bli-sterk.jpg" alt="Bli Sterk" style="width: 100%; max-width: 150px;">
-      <p>BLI STERK</p>
-    </a>
-  </div>
-
-  <div style="flex: 1 1 calc(33% - 20px); text-align: center;">
-    <a href="/muil/docs/aktiviteter/fotball.md">
-      <img src="assets/img/fotball.jpg" alt="Fotball" style="width: 100%; max-width: 150px;">
-      <p>FOTBALL</p>
-    </a>
-  </div>
-
-  <div style="flex: 1 1 calc(33% - 20px); text-align: center;">
-    <a href="/muil/docs/aktiviteter/ski.md">
-      <img src="assets/img/ski.jpg" alt="Ski" style="width: 100%; max-width: 150px;">
-      <p>SKI</p>
-    </a>
-  </div>
-
-  <div style="flex: 1 1 calc(33% - 20px); text-align: center;">
-    <a href="/muil/docs/aktiviteter/leikarring.md">
-      <img src="assets/img/leikarring.jpg" alt="Leikarring" style="width: 100%; max-width: 150px;">
-      <p>LEIKARRING</p>
-    </a>
-  </div>
-
-  <div style="flex: 1 1 calc(33% - 20px); text-align: center;">
-    <a href="/muil/docs/aktiviteter/frisbeegolf.md">
-      <img src="assets/img/frisbeegolf.jpg" alt="Frisbeegolf" style="width: 100%; max-width: 150px;">
-      <p>FRISBEEGOLF</p>
-    </a>
-  </div>
-
-  <div style="flex: 1 1 calc(33% - 20px); text-align: center;">
-    <a href="/muil/docs/aktiviteter/volleyball.md">
-      <img src="assets/img/volleyball.jpg" alt="Volleyball" style="width: 100%; max-width: 150px;">
-      <p>VOLLEYBALL</p>
+  <div style="flex: 1 1 calc(50% - 20px); text-align: center;">
+    <a href="https://fb.me/e/61Gz2h9FP">
+      <img src="assets/img/events/barnesykkelritt.jpg" alt="Fotball" style="width: 100%; max-width: 250px; border: 5px solid #356f4b; border-radius: 5px;">
+      <h3 style="margin: 0;">Gratis sykkelritt</h3>
+      <h4 style="margin-bottom: 0;">For barn 1-12 år</h4>
+      <p style="margin: 0;"><strong>Dato:</strong> Lørdag 24. mai</p>
+      <p style="margin: 0;"><strong>Tid:</strong> 11:00 - 13:30</p>
+      <p style="margin: 0;"><strong>Sted:</strong> Myra Sykkelgård</p>
     </a>
   </div>
 
 </div>
+
+## Sponsorer
+
+**Vi takker våre støttespillere, og håper du vil støtte dem!**
+
+<!-- Hvis du vil sponse MUIL - kontakt oss på {{ email.sponsor }} for mer informasjon. -->
+
+Hvis du vil sponse MUIL - kontakt oss på [email](mailto:{{ email.sponsor }}) for mer informasjon.
+
+![rmc](assets/img/sponsorer/rmc.jpg){ align=left }
+
+![atletica](assets/img/sponsorer/atletica.png){ align=center }
+
+![spar](assets/img/sponsorer/spar.png){ align=center }

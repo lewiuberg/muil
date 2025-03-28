@@ -14,6 +14,7 @@ dependencies = []
 docs = [
     "mkdocs>=1.6.1",
     "mkdocs-macros-plugin>=1.3.7",
+    "mkdocs-markdownextradata-plugin>=0.2.6",
     "mkdocs-material[imaging]>=9.6.9",
     "pymdown-extensions>=10.14.3",
 ]

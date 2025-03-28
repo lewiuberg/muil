@@ -1,4 +1,4 @@
-# Bli en del av Myra ungdoms- og idrettslag
+# Medlemskap
 
 Et idrettslag for alle! Bli medlem enkelt og raskt via Norges idrettsforbunds digitale innmeldingsløsning.
 
