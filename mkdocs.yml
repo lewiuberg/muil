@@ -150,9 +150,7 @@ nav:
       - Kontakt: kontakt/kontakt.md
       - Leie: kontakt/leie.md
   - Nyheter: blog/index.md
-  #     - blog/index.md
-  #     - blog/2023-10-01-test.md
-  #     - blog/2023-10-02-test2.md
+  - Sponsorer: sponsorer/index.md
   # - Medlemskap: medlemskap.md
   # - Aktiviteter:
   #     - Oversikt: aktiviteter/oversikt.md

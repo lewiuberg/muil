@@ -1,4 +1,5 @@
 {
+  "cSpell.enabled": false,
   // "editor.defaultFormatter": null,
   // -------------------------------- PYTHON ---------------------------------
   "python.terminal.activateEnvironment": true,
