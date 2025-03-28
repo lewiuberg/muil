@@ -16,7 +16,7 @@ Vi har mange spennende arrangementer planlagt fremover! Her er noen av dem:
 
   <div style="flex: 1 1 calc(50% - 20px); text-align: center;">
     <a href="https://fb.me/e/59qMDdybH">
-      <img src="assets/img/events/åpningshelg-med-natursti.jpg" alt="Fotball" style="width: 100%; max-width: 250px; border: 5px solid #356f4b; border-radius: 5px;">
+      <img src="assets/img/events/åpningshelg.jpg" alt="Fotball" style="width: 100%; max-width: 250px; border: 5px solid #356f4b; border-radius: 5px;">
       <h3 style="margin: 0;">Åpningshelg i kioskvogna</h3>
       <h4 style="margin-bottom: 0;">Natursti med premie!</h4>
       <p style="margin: 0;"><strong>Dato:</strong> Lørdag 5. april</p>
@@ -27,7 +27,7 @@ Vi har mange spennende arrangementer planlagt fremover! Her er noen av dem:
 
   <div style="flex: 1 1 calc(50% - 20px); text-align: center;">
     <a href="https://fb.me/e/4uj0UzEiL">
-      <img src="assets/img/events/åpningshelg-med-natursti.jpg" alt="Fotball" style="width: 100%; max-width: 250px; border: 5px solid #356f4b; border-radius: 5px;">
+      <img src="assets/img/events/åpningshelg.jpg" alt="Fotball" style="width: 100%; max-width: 250px; border: 5px solid #356f4b; border-radius: 5px;">
       <h3 style="margin: 0;">Åpningshelg i kioskvogna</h3>
       <h4 style="margin-bottom: 0;">Natursti med premie!</h4>
       <p style="margin: 0;"><strong>Dato:</strong> Søndag 6. april</p>
