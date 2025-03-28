@@ -6,7 +6,7 @@ hide:
 # Sponsorer
 
 **Vi takker våre støttespillere, og håper du vil støtte dem!**
-Hvis du vil sponse MUIL - kontakt oss på [sponsmyra@gmail.com](mailto:sponsmyra@gmail.com) for mer informasjon.
+Hvis du vil sponse MUIL - kontakt oss på [e-post](mailto:sponsmyra@gmail.com) for mer informasjon.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
